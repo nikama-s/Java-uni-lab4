@@ -93,7 +93,7 @@ Cage<T extends Animal> (узагальнений базовий клас)
 ### Компіляція
 
 ```bash
-javac -d build -sourcepath src src/animals/*.java src/cages/*.java src/exceptions/*.java src/zoo/*.java tests/*.java
+javac -d build -sourcepath src -cp "lib/junit-platform-console-standalone-1.9.2.jar" src/animals/*.java src/cages/*.java src/exceptions/*.java src/zoo/*.java tests/*.java
 ```
 
 ### Запуск головного класу
